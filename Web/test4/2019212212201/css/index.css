@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.box {
+    position: relative;
+    background: #fff;
+    width: 1252px;
+    height: 1204px;
+    margin: auto;
+}
+
+.bg {
+    position: absolute;
+    opacity: .5;
+}
+
+.box .top {
+    position: relative;
+    width: 1252px;
+    height: 400px;
+}
+
+.box .top img {
+    position: absolute;
+    width: 490px;
+    left: 126px;
+    top: 47.5px;
+}
+
+.box .top .top_right {
+    position: absolute;
+    display: inline-block;
+    left: 666.5px;
+    top: 53px;
+    width: 455px;
+}
+
+.box .top .top_right h3 {
+    font-size: 21.5px;
+    height: 52px;
+    line-height: 52px;
+}
+
+.box .top .top_right .line {
+    display: block;
+    border-bottom: 4px #005db3 solid;
+    width: 50px;
+    height: 9px;
+}
+
+.box .top .top_right p {
+    position: absolute;
+    top: 97px;
+    height: 130px;
+    line-height: 32px;
+    font-size: 16.6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.box .top .top_right .button1 {
+    background: #005db3;
+    position: absolute;
+    border-radius: 5px;
+    top: 255px;
+    height: 40px;
+    width: 199px;
+    color: #fff;
+}
+
+.box .top .top_right .button1 p {
+    top: 5.2px;
+    left: 19.2px;
+    font-size: 14.9px;
+}
+
+.box .top .top_right .button1 span {
+    float: right;
+    width: 26px;
+    height: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box .middle {
+    width: 1252px;
+    height: 390px;
+}
+
+.box .middle .mid_top {
+    position: relative;
+    left: 126px;
+    width: 1000px;
+    height: 104px;
+    border-bottom: 2px #dddddd solid;
+}
+
+.box .middle .mid_top .p-1 {
+    position: absolute;
+    display: inline-block;
+    line-height: 118px;
+    left: 112px;
+    font-size: 18.6px;
+}
+
+.box .middle .mid_top .line1 {
+    position: absolute;
+    line-height: 118px;
+    color: #005db3;
+    font-weight: 700;
+    font-size: 32.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box .middle .mid_top strong {
+    position: absolute;
+    line-height: 115px;
+    top: 3px;
+    left: 89px;
+    color: #005db3;
+    font-size: 23px;
+}
+
+.box .middle .mid_top .button2 {
+    position: absolute;
+    right: 0px;
+    top: 40px;
+    display: inline-block;
+    background: #005db3;
+    border-radius: 6px;
+    width: 150px;
+    height: 35px;
+    color: #fff;
+}
+
+.box .middle .mid_top .button2 p {
+    display: inline-block;
+    line-height: 36px;
+    width: 150px;
+    font-size: 13.4px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.box .middle .mid_top .button2 span {
+    position: absolute;
+    right: 15px;
+    top: 6px;
+}
+
+.box .middle ul {
+    list-style: none;
+    position: relative;
+    left: 126px;
+    top: 11px;
+}
+
+.box .middle ul li {
+    width: 1000px;
+    height: 87px;
+    line-height: 87px;
+    border-bottom: #f2f2f2 1px solid;
+}
+
+.box .middle ul li span {
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 0.015em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 106px;
+}
+
+.box .middle ul li div {
+    position: relative;
+    display: inline-block;
+    top: 8px;
+    width: 110px;
+    height: 27px;
+    border-radius: 14px;
+    background: #5aae73;
+}
+
+.box .middle ul li div p {
+    position: absolute;
+    color: #fff;
+    top: -30px;
+    width: 110px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+}
+
+.box .middle ul li .p-3 {
+    display: inline-block;
+    position: relative;
+    top: 0.5px;
+    left: 16px;
+    font-size: 15.9px;
+    letter-spacing: 0.039em;
+    text-decoration: underline;
+}
+
+.box .buttom {
+    background: rgb(250, 250, 250);
+}
+
+.box .buttom1 {
+    position: relative;
+    top: 15px;
+    width: 1150px;
+    height: 400px;
+    left: 51px;
+    background: rgb(250, 250, 250);
+}
+
+.box .buttom .left {
+    display: inline-block;
+    width: 53%;
+    float: left;
+}
+
+.box .buttom .buttom_top {
+    color: #005db3;
+    width: 280px;
+    height: 32px;
+    line-height: 25px;
+    border-left: #005db3 8px solid;
+    font-size: 22.3px;
+    font-weight: 600;
+    letter-spacing: 0.012em;
+}
+
+.box .buttom .right .buttom_top {
+    letter-spacing: 0;
+}
+
+.box .buttom .right {
+    display: inline-block;
+    width: 47%;
+    float: left;
+}
+
+.box .buttom .left .buttom_box {
+    font-weight: 600;
+    width: 88%;
+    height: 314px;
+    border: 2px rgb(228, 228, 228) solid;
+    text-align: center;
+}
+
+.box .buttom .left .buttom_box .p1 {
+    height: 71px;
+    line-height: 98px;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+}
+
+.box .buttom .left .buttom_box .p2 {
+    height: 60px;
+    color: #005db3;
+    font-size: 49px;
+    font-weight: 600;
+    letter-spacing: 0.0522em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box .buttom .left .buttom_box .p3 {
+    height: 45px;
+    line-height: 59px;
+    letter-spacing: 0.03em;
+}
+
+.box .buttom .left .buttom_box .p4 {
+    height: 47.5px;
+    line-height: 26px;
+    letter-spacing: 0.032em;
+}
+
+.box .buttom .left .buttom_box .p5 {
+    display: inline-block;
+    color: #005db3;
+    width: 430px;
+    height: 50px;
+    line-height: 67px;
+    letter-spacing: 0.24em;
+    font-size: 16.5px;
+    font-weight: 600;
+    border-top: 1.5px rgb(228, 228, 228) solid;
+}
+
+.box .buttom .right .buttom_box {
+    font-weight: 600;
+    width: 99%;
+    height: 314px;
+    border: 2px rgb(228, 228, 228) solid;
+    text-align: center;
+}
+
+.box .buttom .right .buttom_box .massage {
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    top: 70px;
+    height: 71px;
+    width: 430px;
+    border-radius: 6px;
+    box-shadow: 1.5px 1.5px rgb(26, 26, 25);
+    background: #005db3;
+}
+
+.box .buttom .right .buttom_box .massage img {
+    position: absolute;
+    top: 27px;
+    left: 63px;
+    width: 28px;
+    display: inline-block;
+}
+
+.box .buttom .right .buttom_box .massage p {
+    position: absolute;
+    top: -1px;
+    left: 100px;
+    letter-spacing: 0.03em;
+    display: inline-block;
+    text-shadow: 0 0 transparent;
+    line-height: 71px;
+    font-size: 20px;
+}
+
+.box .buttom .right .buttom_box .massage span {
+    position: absolute;
+    right: 16px;
+    top: 22px;
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box .buttom .right .buttom_box .p1 {
+    height: 118px;
+    line-height: 202px;
+    letter-spacing: 0.03em;
+}
+
+.box .buttom .right .buttom_box .p2 {
+    height: 27.3px;
+    letter-spacing: 0.035em;
+}
+
+.box .buttom .right .buttom_box .p3 {
+    letter-spacing: 0.04em;
+}

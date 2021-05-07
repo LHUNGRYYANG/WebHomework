@@ -1,0 +1,484 @@
+body {
+    position: relative;
+    height: 1000px;
+    width: 1000px;
+    background: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box {
+    position: absolute;
+    background: #fff;
+    margin: 100px;
+    width: 693px;
+    height: 349px;
+}
+
+.box .bg {
+    position: absolute;
+    opacity: .5;
+}
+
+.ui-grid-row-1 {
+    margin: 13px 7px 0 1px;
+    height: 21px;
+    border-bottom: #008fcc 5px solid;
+}
+
+.ui-grid-row-1 .first {
+    width: 11.5%;
+    margin-right: 6px;
+    background: #008fcc;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 22px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 13.5px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+.ui-grid-row-1 .ui-grid-1 .ui-button-sorange {
+    margin: 0 0 2px 0px;
+    width: 68%;
+    height: 16.5px;
+    line-height: 15px;
+    padding: 0 0;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.ui-grid-row-1 .end {
+    margin-left: 19.5px;
+}
+
+.ui-grid-row-1 .end .ui-button-swhite {
+    width: 47%;
+    padding-right: 10px;
+    position: relative;
+    top: -1px;
+    color: #183cc7;
+    letter-spacing: 0.01em;
+    height: 19px;
+    line-height: 18px;
+    padding-left: 31px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ui-grid-row-1 .end .ui-button-swhite img {
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    display: inline-block;
+    width: 18px;
+}
+
+.ui-grid-row-2 {
+    background: #fafafa;
+    margin: 0 7px 0 1px;
+    border: 2px solid #cecece;
+    height: 47px;
+    border-top: none;
+    color: #454545;
+    padding: 0px 7px;
+    font-size: 12px;
+}
+
+.ui-grid-row-2 .p-red {
+    color: #f20000;
+    height: 18px;
+    line-height: 26px;
+    font-size: 14.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.071em;
+}
+
+.ui-grid-row-2 .p-sred {
+    color: #f20000;
+    height: 18px;
+    line-height: 26px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.071em;
+}
+
+.ui-grid-row-2 p img {
+    margin: 0 0 0 4px;
+    width: 18px;
+}
+
+.ui-grid-row-2 p .p-red i {
+    font-style: normal;
+    font-size: 12px;
+}
+
+.ui-grid-row-2 .p1 {
+    line-height: 16px;
+    font-size: 12px;
+    letter-spacing: 0.09em;
+}
+
+.ui-grid-row-2 .p1 strong {
+    font-weight: 600;
+    letter-spacing: 0.18em;
+}
+
+.ui-grid-row-2 .p1 .p1-red {
+    color: #f20000;
+    letter-spacing: 0.14em;
+}
+
+.ui-grid-row-3 {
+    position: relative;
+    margin: 0 7px 0 1px;
+    height: 21px;
+    border: 2px solid #cecece;
+    border-top: none;
+    background: #fffbde;
+}
+
+.ui-grid-row-3 .ui-grid-25 p {
+    position: absolute;
+    right: 6px;
+}
+
+.ui-grid-row-3 .ui-grid-25 .p-1 {
+    position: absolute;
+    right: 68px;
+    width: 32px;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #183cc7;
+}
+
+.ui-grid-row-3 .ui-grid-25 .p-2 {
+    font-size: 12.3px;
+    letter-spacing: -0.07em;
+    line-height: 21px;
+    text-decoration: underline;
+    color: #183cc7;
+}
+
+.ui-grid-row-3 .ui-grid-25 img {
+    position: absolute;
+    top: 3px;
+}
+
+.ui-grid-row-3 .ui-grid-25 .logo-3 {
+    width: 17px;
+    right: 103px;
+}
+
+.ui-grid-row-3 .ui-grid-25 .logo-4 {
+    width: 15px;
+    right: 48px;
+}
+
+.ui-grid-row-4 {
+    margin: 5px 6px 0 1px;
+    line-height: 14px;
+    font-size: 12px;
+    text-align: center;
+    color: #588096;
+}
+
+.ui-grid-row-4 .ui-grid-15 {
+    width: 59%;
+    height: 14.5px;
+    background: #c9dde9;
+    margin-right: 1px;
+}
+
+.ui-grid-row-4 .ui-grid-2 {
+    width: 9.2%;
+    height: 14.5px;
+    letter-spacing: 0.05em;
+    margin-right: 1px;
+    background: #c9dde9;
+}
+
+.ui-grid-row-4 .ui-grid-3 {
+    width: 10.2%;
+    letter-spacing: 0.05em;
+    height: 14.5px;
+    margin-right: 1px;
+    background: #c9dde9;
+}
+
+.ui-grid-row-4 .ui-grid-4 {
+    width: 11.6%;
+    letter-spacing: 0.05em;
+    margin-right: 1px;
+    height: 14.5px;
+    background: #c9dde9;
+}
+
+.ui-grid-row-4 .ui-grid-1 {
+    width: 9.3%;
+    letter-spacing: 0.05em;
+    height: 14.5px;
+    background: #c9dde9;
+}
+
+.ui-grid-row-5 {
+    margin: 0 7px 0 1px;
+    height: 27px;
+    border: #cecece 2px solid;
+    border-top: none;
+    background: #f2f2f2;
+}
+
+.ui-grid-row-5 .ui-grid-25 {
+    position: relative;
+    margin: 5px 0 5px 80px;
+    line-height: 16px;
+    font-size: 16.5px;
+}
+
+.ui-grid-row-5 .ui-grid-25 .logo-5 {
+    position: absolute;
+    width: 15px;
+    left: -4px;
+    top: 1.5px;
+}
+
+.logo-6 {
+    position: absolute;
+    width: 15px;
+    left: 16px;
+    top: 1px;
+}
+
+.ui-grid-row-5 .ui-grid-25 p {
+    display: inline-block;
+    line-height: 15px;
+    margin-left: 36.2px;
+    letter-spacing: 0.025em;
+    font-weight: 600;
+}
+
+.ui-grid-row-5 .ui-grid-25 span {
+    position: absolute;
+    text-decoration: underline;
+    right: 70px;
+    line-height: 15.5px;
+    font-size: 12px;
+    color: #183cc7;
+}
+
+.ui-grid-row-6 {
+    margin: 0 7px 0 1px;
+}
+
+.ui-grid-row-6 .ui-grid-4 {
+    margin-right: 2.5px;
+    text-align: center;
+    height: 47px;
+    width: 15%;
+    border-right: 2px solid #7dc8da;
+}
+
+.ui-grid-row-6 .ui-grid-4 p {
+    margin-left: -11px;
+    height: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 12.9px;
+    letter-spacing: 0.06em;
+}
+
+.ui-grid-row-6 .ui-grid-4 span {
+    margin-left: -5px;
+}
+
+.ui-grid-row-6 .ui-grid-11 {
+    position: relative;
+    width: 43.3%;
+    border-left: #7dc8da 2px solid;
+    height: 47px;
+}
+
+.ui-grid-row-6 .ui-grid-11 img {
+    position: absolute;
+    width: 16%;
+    left: 5px;
+    top: 13px;
+}
+
+.ui-grid-row-6 .ui-grid-11 p {
+    margin: 5px 0 0 70px;
+    font-size: 12.2px;
+    line-height: 19px;
+    letter-spacing: 0.07em;
+    width: 175px;
+    color: #3789b9;
+}
+
+.ui-grid-row-6 .ui-grid-2 {
+    width: 9.5%;
+    height: 47px;
+    border-left: #cecece 2px solid;
+    text-align: center;
+    line-height: 43px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.ui-grid-row-6 .ui-grid-3 {
+    width: 11.7%;
+    margin-left: 5px;
+    border-left: 2px solid #cecece;
+    height: 47px;
+}
+
+.ui-grid-row-7 {
+    margin: -1px 7px 0 1px;
+    height: 44px;
+    border: #cecece 2px solid;
+    background: #f2f2f2;
+}
+
+.ui-grid-row-7 .ui-grid-15 {
+    position: relative;
+}
+
+.ui-grid-row-7 .ui-grid-15 span {
+    margin: 0 0 0 32px;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+.ui-grid-row-7 .ui-grid-15 img {
+    left: 96px;
+    top: 14px;
+}
+
+.ui-grid-row-7 .ui-grid-15 p {
+    display: inline-block;
+    margin: 0 0 0 52px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.13em;
+}
+
+.ui-grid-row-7 .ui-grid-2 {
+    margin: 0 0 0 11px;
+    width: 10%;
+    line-height: 42px;
+    font-weight: 600;
+    font-size: 12.5px;
+    letter-spacing: 0.03em;
+}
+
+.ui-grid-row-7 .ui-grid-8 {
+    padding-left: 24px;
+    width: 26%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.ui-grid-row-7 .ui-grid-8 span {
+    color: #183cc7;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 12.7px;
+    height: 21px;
+    line-height: 20px;
+    margin: 0 0 0 6px;
+}
+
+.ui-grid-row-8 .ui-grid-4 {
+    height: 43px;
+}
+
+.ui-grid-row-8 .ui-grid-4 p {
+    line-height: 28px;
+    height: 17px;
+}
+
+.ui-grid-row-8 .ui-grid-4 span {
+    margin: 0 0 0 -6.5px;
+}
+
+.ui-grid-row-8 .ui-grid-11 {
+    height: 43px;
+}
+
+.ui-grid-row-8 .ui-grid-11 img {
+    width: 19%;
+    top: 8px;
+}
+
+.ui-grid-row-8 .ui-grid-11 p {
+    margin: 4px 0 0 68px;
+    text-decoration: underline;
+}
+
+.ui-grid-row-8 .ui-grid-11 a {
+    width: 20.6%;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    border-width: 1px;
+    margin: 0 0 3px 70.2px;
+    font-weight: 500;
+    height: 12px;
+    line-height: 12px;
+    letter-spacing: -0.1em;
+}
+
+.ui-grid-row-8 .ui-grid-2 {
+    height: 43px;
+    line-height: 40px;
+}
+
+.ui-grid-row-8 .ui-grid-3 {
+    height: 43px;
+    text-align: center;
+    position: relative;
+    letter-spacing: 0.05em;
+    line-height: 15px;
+}
+
+.ui-grid-row-8 .ui-grid-3 p {
+    position: absolute;
+    top: 5px;
+    left: 17px;
+}
+
+.ui-grid-row-8 .end {
+    position: relative;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.ui-grid-row-8 .end p {
+    position: absolute;
+    top: -0.5px;
+    left: 7px;
+}
+
+.ui-grid-row-9 .ui-grid-15 .logo-9 {
+    position: absolute;
+    width: 5.3%;
+    left: 70px;
+}
+
+.ui-grid-row-9 .ui-grid-15 p {
+    position: absolute;
+    left: 65px;
+    top: 8px;
+}
+
+.ui-grid-row-9 .ui-grid-8 {
+    width: 24%;
+    padding-left: 38px;
+    letter-spacing: -0.01em;
+}

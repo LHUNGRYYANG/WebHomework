@@ -1,0 +1,118 @@
+ body {
+     width: 1000px;
+     background: rgb(212, 207, 207);
+ }
+ 
+ body .box {
+     display: flex;
+     background: #fff;
+     width: 550px;
+     flex-direction: column;
+ }
+ 
+ body .box .row {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ body .box .row img {
+     margin: 0 0 2px 10px;
+     width: 100px;
+     height: 250px;
+     background: #fff;
+ }
+ 
+ body .box .selected {
+     position: absolute;
+     background: #fff;
+     top: 40px;
+     left: 190px;
+     width: 170px;
+     height: 420px;
+ }
+ 
+ body .select {
+     position: absolute;
+     width: 1500px;
+     height: 500px;
+ }
+ 
+ .box-2 {
+     margin-top: 10px;
+     background: #fff;
+     width: 550px;
+ }
+ 
+ .box-2 nav {
+     display: flex;
+     width: 100%;
+     height: 30px;
+     border-bottom: 1px solid #222;
+ }
+ 
+ .box-2 nav button:focus,
+ .box-2 nav button:active,
+ .box-2 nav button {
+     height: 30px;
+     border-radius: 0px;
+     outline: none;
+     box-shadow: none;
+     border: 1px solid #222;
+     border-bottom: none;
+     background: #fff;
+ }
+ 
+ .box-2 .content {
+     color: #fff;
+     width: 100%;
+     height: 100px;
+     background: #fff;
+ }
+ 
+ .box-3 {
+     width: 300px;
+     margin-top: 10px;
+     height: 165px;
+     background: #fff;
+     border: 1px solid black;
+ }
+ 
+ .box-3 button {
+     margin-top: 10px;
+     margin-left: 210px;
+     outline: 0;
+     box-shadow: none;
+     width: 80px;
+     height: 25px;
+     background: #339966;
+     border: 1px solid black;
+     color: #fff;
+     font-weight: 600;
+ }
+ 
+ .box-3 div {
+     width: 260px;
+     height: 25px;
+     border: 1px solid black;
+     margin: 10px 17px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .box-3 div .first {
+     display: inline-block;
+     width: 20px;
+     height: 25px;
+     text-align: center;
+     line-height: 25px;
+     border-right: 1px solid #000;
+ }
+ 
+ .box-3 div .end {
+     display: inline-block;
+     width: 55px;
+     height: 25px;
+     text-align: center;
+     line-height: 25px;
+     border-left: 1px solid #000;
+ }
